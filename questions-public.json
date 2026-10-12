@@ -1,0 +1,25 @@
+{
+  "note": "20 public sample questions for the BTX Explainer bounty, same form as the 40 held-out ones. required: every fact must appear in the answer (case-insensitive; numbers with or without separators). forbidden: none of these may appear. Sources: btx repository v0.34.15 and the BTX Handbook (EN, second edition), as of 2026-10-13.",
+  "questions": [
+    {"id": "p01", "q": "What is the maximum supply of BTX?", "required": ["21,000,000"], "forbidden": ["premine"]},
+    {"id": "p02", "q": "How many BTX does a block pay today, and every how many blocks does the reward halve?", "required": ["20", "525,000"]},
+    {"id": "p03", "q": "What is BTX's target block interval?", "required": ["90 seconds"]},
+    {"id": "p04", "q": "What kind of computation is BTX's proof of work?", "required": ["matrix multiplication"], "forbidden": ["SHA-256 lottery"]},
+    {"id": "p05", "q": "Which post-quantum signature scheme does BTX use for everyday transaction signing?", "required": ["ML-DSA-44"]},
+    {"id": "p06", "q": "With which characters does a BTX address begin?", "required": ["btx1z"]},
+    {"id": "p07", "q": "At which block height did MatMul v4.7 activate, and in which month?", "required": ["185,000", "August 2026"]},
+    {"id": "p08", "q": "Is the BTX described by github.com/btxchain/btx the same coin as the BTX ticker that has traded since 2017?", "required": ["no"], "forbidden": ["same coin"]},
+    {"id": "p09", "q": "Does BTX have a public market or exchange price today?", "required": ["no"]},
+    {"id": "p10", "q": "What does the BTX project call itself in HUMANS.md, in one phrase?", "required": ["decentralized frontier AI lab", "without a corporate center"]},
+    {"id": "p11", "q": "Name the two markets on BTX's model plane.", "required": ["release campaign", "creation bount"]},
+    {"id": "p12", "q": "Is BTX's model network a remote inference marketplace?", "required": ["no", "local"]},
+    {"id": "p13", "q": "What does a btx:// link name?", "required": ["exact bytes"]},
+    {"id": "p14", "q": "Does fetching a public model over the BTX model network cost BTX?", "required": ["free"], "forbidden": ["must buy"]},
+    {"id": "p15", "q": "What is the size of each piece a model travels in on the BTX model network, and which hash checks each piece?", "required": ["4 MiB", "SHA-384"]},
+    {"id": "p16", "q": "In a creation bounty, who authorizes the award, and does the chain run the benchmark?", "required": ["council", "no"]},
+    {"id": "p17", "q": "What happens to a funded bounty lot that is never awarded?", "required": ["refund", "contributor"]},
+    {"id": "p18", "q": "At which block height did BTX stop accepting new shielded deposits?", "required": ["125,000"]},
+    {"id": "p19", "q": "Which base chain software is BTX derived from?", "required": ["Bitcoin Knots"]},
+    {"id": "p20", "q": "What is the name of BTX's unit of work since MatMul v4.7, and roughly how long does one take?", "required": ["episode", "seconds"], "forbidden": ["microseconds"]}
+  ]
+}
