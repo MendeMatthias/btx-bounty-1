@@ -21,11 +21,12 @@
   so they cannot be changed). Passing is 48 of 60. The highest passing score
   wins; a tie goes to whoever committed first.
 - **Who signs:** a council of three named people, each with their own key
-  on their own computer. On BTX 0.34.15 any one of them can sign the award
-  alone, because its wallet cannot pass a half-signed award from one member
-  to the next. Jpp-matata measured on 0.35.0rc1 that two of three can sign
-  in turn with the general PSBT tools; once that is repeated here, the terms
-  can ask for two of three.
+  on their own computer. The wallet's bounty commands cannot pass a
+  half-signed award from one member to the next, but the general PSBT tools
+  can: two of three sign in turn, each in their own wallet. Jpp-matata
+  measured it on 0.35.0rc1, and we repeated it on 2026-10-15, also with every
+  member on 0.34.15 (a 0.35 program only prepares the award, offline). So the
+  terms can ask for two of three.
 - **If nobody wins:** nothing is paid. From day 49 the money goes back to
   whoever put it in, with nobody's help or permission.
 - **Costs:** the 5 BTX, plus about 0.002 BTX of network fee per transaction
